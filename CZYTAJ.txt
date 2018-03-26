@@ -1,0 +1,10 @@
+Po ka¿dych zmianach:
+git add .
+git commit -m "CO ZMIENI£EŒ"
+git push -u origin master
+
+w gitignore dodajesz w nowych linijkach pliki których ma nie commitowaæ, config.php nie bêdzie dodawny na gita, ale zrób dwa pliki w g³ównym katalogu:
+config.php <- tutaj bêdziesz z niego korzysta³ i masz w nim swoje dane (on nie bêdzie commitowany na gita)
+config.example.php <- ten plik ma mieæ strukturê configa, czyli to samo co config.php, ale masz nie podawaæ tam danych, to tylko po to jakbym chcia³ pobraæ do siebie i u siebie przetestowaæ
+
+Wszystko rozumiesz? jasne szefunciu to git idziemy graæ i do roboty.x DGramy do maks 17:30 XDD to sie jeszcze zobaczy XD NIE! 18:30 !!!!!!!!
